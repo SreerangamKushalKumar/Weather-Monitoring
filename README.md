@@ -49,12 +49,43 @@ INTERVAL=300000 # (5 minutes in milliseconds)"
 ```
 # Run the Application: Start the system using the following command:
 ```bash
-"npm"
+"npm python"
 ```
-# Run in Python (Optional):
-```bash
-"python"
-```
+
+# Database Setup:
+For the daily summaries, you can use MongoDB or any relational database. Make sure to configure the connection string in your .env file.
+
+# Usage
+- Real-Time Monitoring:
+The system will automatically fetch and process weather data every 5 minutes (or as per your configuration).
+ - Daily Summaries:
+The system will aggregate daily weather data and store the summary in the database.
+- Alert Configuration:
+Set alert thresholds (e.g., max temperature) in the application, and the system will notify when the thresholds are breached.
+
+# Test Cases
+- System Setup:
+Test that the system connects to the OpenWeatherMap API using a valid API key.
+- Data Retrieval:
+Simulate API calls and ensure the system retrieves and parses weather data correctly.
+- Temperature Conversion:
+Verify the conversion of temperature values from Kelvin to Celsius (or Fahrenheit).
+- Daily Weather Summary:
+Simulate multiple days of weather updates and validate that the system calculates correct daily summaries.
+- Alerting System:
+Configure thresholds and simulate data that breaches them to ensure alerts are triggered.
+
+# Bonus Features
+- Support for additional weather parameters (e.g., humidity, wind speed).
+- Integration of weather forecast data.
+- Enhanced visualizations for weather trends and history.
+
+# Project Dependencies
+- Node.js: JavaScript runtime environment.
+- MongoDB: (Optional) Database for storing daily weather summaries.
+- OpenWeatherMap API: For fetching real-time weather data.
+- Docker: (Optional) For containerizing the application.
+  
 # Usages:
  - Search for any city using the search bar.
    -Select the desired temperature unit (Celsius/Fahrenheit/Kelvin) from the dropdown menu.

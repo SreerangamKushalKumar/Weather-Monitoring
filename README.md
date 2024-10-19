@@ -9,14 +9,14 @@ Real-Time Weather Monitoring System uses the OpenWeatherMap API to continuously 
 ![Screenshot 2024-10-19 125737](https://github.com/user-attachments/assets/c6fbc757-f541-445b-a634-f77ec4967641)
 ![Screenshot 2024-10-19 125945](https://github.com/user-attachments/assets/e5c4808e-305f-41e0-884a-aff77ee0d876)
 # Weather Metrics:
-Humidity: Displayed as a percentage (%)
-Wind Speed: Shown in kilometers per hour (km/h)
-Temperature Units: Switchable between Celsius, Fahrenheit, and Kelvin.
+* Humidity: Displayed as a percentage (%)
+* Wind Speed: Shown in kilometers per hour (km/h)
+* Temperature Units: Switchable between Celsius, Fahrenheit, and Kelvin.
 
 # Weather Summaries:
-Average Daily Temperature
-Minimum and Maximum Temperatures of the Day
-Dominant Weather Condition (e.g., Clear, Rain, Snow)
+* Average Daily Temperature
+* Minimum and Maximum Temperatures of the Day
+* Dominant Weather Condition (e.g., Clear, Rain, Snow)
 
 
 ![Screenshot 2024-10-19 125802](https://github.com/user-attachments/assets/ca6c7cda-d102-4da2-9887-3e742d1b0131)

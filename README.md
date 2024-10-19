@@ -31,25 +31,23 @@ Comprehensive weather predictions visualized through a 5-shade section for easy 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/weather-monitoring-system.git
+   
 
-   Install Dependencies: Navigate to the project directory and install the necessary packages:
+# Install Dependencies: Navigate to the project directory and install the necessary packages:
 
-bash
-Copy code
 cd weather-monitoring-system
 npm install
-Environment Variables: Create a .env file in the root directory and add the following details:
 
-bash
+
+# Environment Variables: Create a .env file in the root directory and add the following details:
+
 Copy code
 API_KEY=your_openweathermap_api_key
 DATABASE_URL=your_database_url
 INTERVAL=300000 # (5 minutes in milliseconds)
 
-Run the Application: Start the system using the following command:
+# Run the Application: Start the system using the following command:
 
-bash
-Copy code
 npm start
 
 

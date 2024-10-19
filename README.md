@@ -32,6 +32,7 @@ Comprehensive weather predictions visualized through a 5-shade section for easy 
    ```bash
    git clone https://github.com/SreerangamKushalKumar/weather-monitoring-system.git
 
+
 # Install Dependencies: Navigate to the project directory and install the necessary packages:
 
    ```bash

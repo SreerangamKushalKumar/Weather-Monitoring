@@ -41,17 +41,20 @@ cd weather-monitoring-system
 ```
 
 # Environment Variables: Create a .env file in the root directory and add the following details:
+
+```bash
 "API_KEY=your_openweathermap_api_key
 DATABASE_URL=your_database_url
 INTERVAL=300000 # (5 minutes in milliseconds)"
-
+```
 # Run the Application: Start the system using the following command:
+```bash
 "npm"
-
+```
 # Run in Python (Optional):
-
+```bash
 "python"
-
+```
 # Usages:
  - Search for any city using the search bar.
    -Select the desired temperature unit (Celsius/Fahrenheit/Kelvin) from the dropdown menu.

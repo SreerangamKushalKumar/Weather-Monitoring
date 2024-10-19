@@ -51,3 +51,11 @@ npm
 
 python
 
+**Usage**
+ - Search for any city using the search bar.
+   -Select the desired temperature unit (Celsius/Fahrenheit/Kelvin) from the dropdown menu.
+     - View the current weather conditions, along with a five-day forecast.
+
+**Running Tests:**
+You can add and run tests to ensure everything is working correctly.
+
